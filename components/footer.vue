@@ -1,13 +1,10 @@
 <template>
-  <div>shouye</div>
+  <div>页脚</div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>

@@ -1,13 +1,32 @@
 <template>
   <div>
+    <!-- 头部组件 -->
+    <Header />
     <nuxt />
+    <!-- 页脚组件 -->
+    <fooder />
   </div>
 </template>
 
+<script>
+// 导入头部组件
+import Header from "@/components/header";
+// 导入页脚组件
+import Fooder from "@/components/footer";
+
+export default {
+  //注册组件
+  components: {
+    Header,
+    Fooder
+  }
+};
+</script>
+
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

@@ -1,5 +1,5 @@
 <template>
-  <div>shouye</div>
+  <div>头部</div>
 </template>
 
 <script>
