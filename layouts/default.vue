@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="less">
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -70,5 +70,24 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+}
+em,
+i {
+  font-style: normal;
 }
 </style>

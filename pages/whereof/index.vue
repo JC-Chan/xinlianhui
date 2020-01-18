@@ -1,5 +1,5 @@
 <template>
-  <div>首页</div>
+  <div>关于新联会</div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div>首页</div>
+  <div>热门活动</div>
 </template>
 
 <script>
